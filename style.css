@@ -1,0 +1,213 @@
+*{
+    box-sizing: border-box;
+  }
+
+body {
+    background: url(bgFood.jpg) no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
+    margin: 0;
+    padding: 0;
+    line-height: 1.5;
+    font-size: 16px;
+	font-family: 'Montserrat', sans-serif;
+}
+/* styling our header */
+header   {
+    background: #222;
+    color: #FFF;
+    padding: 20px 30px;
+  }
+  
+  /* logo */
+  #logo         {
+    display: inline-block;
+    color: #FFF;
+    text-decoration: none;
+    width: 49%;
+  }
+  #logo img    {
+    width: 50px;
+    border-radius: 3px;
+    margin-right: 8px;
+    vertical-align: middle;
+  }
+  #logo span   {
+    display: inline-block;
+  }
+  
+  /* main navigation */
+  nav     {
+    width: 50%;
+    display: inline-block;
+    text-align: right;
+  }
+  nav ul   {
+    list-style: none;
+    margin: 0;
+  }
+  nav ul li {
+    display: inline-block;
+  }
+  nav ul li a    {
+    color: #FFF;
+    text-decoration: none;
+    display: block;
+    padding: 10px 15px;
+    border-radius: 3px;
+    transition: 0.3s ease all;
+  }
+  nav ul li a:hover   {
+    background: #444;
+  }
+
+  .head_section {
+      background: url(bgFood.jpg) no-repeat;
+      -webkit-background-size: cover;
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 100vh;
+      position: relative;
+  }
+  
+  .head_wrapper {
+      color:white;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%,-50%);
+  }
+  
+  .head_wrapper h1 {
+      font-size: 3.28rem;
+      text-align: center;
+  }
+  .head_wrapper h2 {
+    font-size: 2.0rem;
+    text-align: center;
+}
+  
+  .form_code {
+      text-align: center;
+  }
+  
+  .form_code .pin_code {
+      display: block;
+      width: 80%;
+      margin-left: auto;
+      margin-right: auto;
+      border-radius: 2rem;
+      padding: .6rem;
+      border:none;
+      outline:none;
+  }
+  .form_code ::placeholder{
+    font-size: 1.4rem;
+    text-align: center;
+  }
+  .form_code a {
+    display: inline-block;
+    color: rgb(5, 6, 97);
+    border: 3px solid rgb(28, 6, 87);
+    background-color: rgb(113, 203, 238);
+    border-radius: 3px;
+    padding: 15px 30px;
+    margin-right: 20px;
+    text-decoration: none;
+    font-size: 28px;
+  }
+
+  .form_code a:hover{
+  background: rgb(206, 21, 98);
+  transform: translateX(-0.5rem);
+  }  
+  
+  /*  Product Section */
+  
+  .products {
+      width: 90%;
+      height: 150%;
+      margin-top: .3rem;
+      margin-left: auto;
+      margin-right: auto;
+      background-color: rgb(230, 217, 217);
+  }
+  
+.img-responsive {
+    width: 376px;
+    height: 280px;
+  }
+  
+ .product_item1 {
+      float: left;
+      width: 31%;
+      margin-left: .5rem;
+      background-color: rgb(203, 218, 231);
+  }
+  .product_item2 {
+    float: left;
+    width: 31%;
+    margin-left: .5rem;
+    background-color: rgb(203, 218, 231);
+}
+.product_item3 {
+  float: left;
+  width: 31%;
+  margin-left: .5rem;
+  background-color: rgb(203, 218, 231);
+}
+.product_item4 {
+    float: left;
+    width: 31%;
+    margin-left: .5rem;
+    background-color: rgb(224, 198, 198);
+}
+.product_item5 {
+  float: left;
+  width: 31%;
+  margin-left: .5rem;
+  background-color: rgb(224, 198, 198);
+}
+.product_item6 {
+  float: left;
+  width: 376px;
+  height: 522px;
+  margin-left: .5rem;
+  background-color: rgb(224, 198, 198);
+}
+
+/* For mobile phones: 
+[class*="col-"] {
+    width: 100%;
+  }
+  
+  @media only screen and (min-width: 600px) {
+    For tablets: 
+    .col-s-1 {width: 8.33%;}
+    .col-s-2 {width: 16.66%;}
+    .col-s-3 {width: 25%;}
+    .col-s-4 {width: 33.33%;}
+    .col-s-5 {width: 41.66%;}
+    .col-s-6 {width: 50%;}
+    .col-s-7 {width: 58.33%;}
+    .col-s-8 {width: 66.66%;}
+    .col-s-9 {width: 75%;}
+    .col-s-10 {width: 83.33%;}
+    .col-s-11 {width: 91.66%;}
+    .col-s-12 {width: 100%;}
+  }
+  @media only screen and (min-width: 768px) {
+    For desktop: 
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+  }*/
